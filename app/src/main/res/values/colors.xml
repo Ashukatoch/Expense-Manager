@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B5FF8A80</color>
+    <color name="colorPrimaryDark">#FF8A80</color>
+    <color name="colorAccent">#D2D81B</color>
+    <color name="toolbarcolor">#E27958</color>
+    <color name="dashcolor">#D2D81B</color>
+    <color name="expcolor">#0DBD3E</color>
+    <color name="inccolor">#2558AC</color>
+    <color name="fragmentslayout">#FF7000</color>
+</resources>

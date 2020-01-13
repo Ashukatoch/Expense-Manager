@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/loginpagebackground"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/loginlayout"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/login"
+                android:fontFamily="@font/jomolhariregular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Log In"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24dp"/>
+            <EditText
+                android:id="@+id/emailedittext"
+                android:fontFamily="@font/jomolhariregular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
+                android:background="@drawable/loginwidgetdesign"
+                android:layout_margin="15dp"
+                android:padding="10dp"
+                android:inputType="textEmailAddress"
+                android:hint="E mail"/>
+            <EditText
+                android:id="@+id/passedittext"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/jomolhariregular"
+                android:layout_width="match_parent"
+                android:background="@drawable/loginwidgetdesign"
+                android:textColorHint="@android:color/white"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:padding="10dp"
+                android:inputType="textPassword"
+                android:hint="Password"/>
+            <Button
+                android:id="@+id/loginbtn"
+                android:background="@drawable/loginwidgetdesign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_margin="10dp"
+                android:text="Log In"
+                android:fontFamily="@font/jomolhariregular"
+                />
+            <TextView
+                android:id="@+id/resetpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/jomolhariregular"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/white"
+                android:text="reset password?" />
+            <TextView
+                android:id="@+id/loginsignup"
+                android:fontFamily="@font/jomolhariregular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/white"
+                android:text="Don't have account?Sign up here" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
